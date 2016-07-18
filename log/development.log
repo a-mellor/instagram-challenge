@@ -1,0 +1,15 @@
+Started GET "/" for ::1 at 2016-07-15 22:54:01 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/alexmellor/.rvm/gems/ruby-2.3.0/gems/railties-5.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/alexmellor/.rvm/gems/ruby-2.3.0/gems/railties-5.0.0/lib/rails/templates/rails/welcome/index.html.erb (12.6ms)
+Completed 200 OK in 46ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures" for ::1 at 2016-07-15 22:54:10 +0100
+Processing by PicturesController#index as HTML
+  Rendering pictures/index.html.erb within layouts/application
+  Rendered pictures/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 554ms (Views: 551.3ms | ActiveRecord: 0.0ms)
+
+
